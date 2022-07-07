@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div
       data-theme={"lemonade"}
-      className={" overflow-y-hidden overflow-x-hidden bg-base-100 h-screen"}
+      className={"  overflow-x-hidden bg-base-100 h-screen"}
     >
       <Head>
         <title>Dev-Jay</title>
