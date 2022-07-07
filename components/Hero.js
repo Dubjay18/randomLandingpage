@@ -2,7 +2,7 @@ import React from "react";
 import fund from "../images/box.png";
 function Hero() {
   return (
-    <div className="lg:h-[70vh] p-5 flex lg:flex-row flex-col-reverse items-center mx-28">
+    <div className="lg:h-[70vh] p-5 flex lg:flex-row flex-col-reverse items-center md:mx-28 mx-7">
       <div className="flex items-center justify-center lg:mt-0 mt-7">
         <div className="relative z-40">
           <div className="w-40 h-40 absolute rounded-full bg-blue-500 opacity-30 -z-[1] animate-pulse animate-bounce"></div>
@@ -34,7 +34,7 @@ function Hero() {
 
       <div className="  z-40 flex items-center justify-center relative md:mb-0 mb-20">
         <div className=" animate-pulse animate-bounce w-40 h-40 absolute rounded-full bg-blue-500 opacity-30 -z-[1] right-32 "></div>
-        <img src={fund.src} alt="" height={"100%"} width={"80%"} />
+        <img src={fund.src} alt="" height={"100%"} width={"100%"} />
       </div>
     </div>
   );
